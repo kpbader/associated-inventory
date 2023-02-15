@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0ade8bc.css",
-    "main.js": "/static/js/main.36e74d25.js",
-    "static/js/787.42406605.chunk.js": "/static/js/787.42406605.chunk.js",
-    "static/media/frank-chamaki-overlay.jpg": "/static/media/frank-chamaki-overlay.2a48609aedd7f9703898.jpg",
-    "static/media/raquel-pedrotti-hB-Vwbyxr9U-unsplash.jpg": "/static/media/raquel-pedrotti-hB-Vwbyxr9U-unsplash.3b63d2de7ad504fb37b2.jpg",
-    "static/media/logo-white-1-01.png": "/static/media/logo-white-1-01.a618b240b3932c1c3ad8.png",
-    "index.html": "/index.html",
-    "main.f0ade8bc.css.map": "/static/css/main.f0ade8bc.css.map",
-    "main.36e74d25.js.map": "/static/js/main.36e74d25.js.map",
-    "787.42406605.chunk.js.map": "/static/js/787.42406605.chunk.js.map"
+    "main.css": "/associated-inventory/static/css/main.f0ade8bc.css",
+    "main.js": "/associated-inventory/static/js/main.bcfb8e62.js",
+    "static/js/787.42406605.chunk.js": "/associated-inventory/static/js/787.42406605.chunk.js",
+    "static/media/frank-chamaki-overlay.jpg": "/associated-inventory/static/media/frank-chamaki-overlay.2a48609aedd7f9703898.jpg",
+    "static/media/raquel-pedrotti-hB-Vwbyxr9U-unsplash.jpg": "/associated-inventory/static/media/raquel-pedrotti-hB-Vwbyxr9U-unsplash.3b63d2de7ad504fb37b2.jpg",
+    "static/media/logo-white-1-01.png": "/associated-inventory/static/media/logo-white-1-01.a618b240b3932c1c3ad8.png",
+    "index.html": "/associated-inventory/index.html",
+    "main.f0ade8bc.css.map": "/associated-inventory/static/css/main.f0ade8bc.css.map",
+    "main.bcfb8e62.js.map": "/associated-inventory/static/js/main.bcfb8e62.js.map",
+    "787.42406605.chunk.js.map": "/associated-inventory/static/js/787.42406605.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0ade8bc.css",
-    "static/js/main.36e74d25.js"
+    "static/js/main.bcfb8e62.js"
   ]
 }
