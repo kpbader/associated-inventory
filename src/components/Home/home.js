@@ -4,17 +4,11 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import {
-    BsCreditCard2Back,
     BsFillCalendarCheckFill,
     BsClipboardCheck,
-    BsBasketFill,
-    BsFillPinMapFill,
-    BsFillGeoFill,
-    BsFillTelephoneFill
 }
     from 'react-icons/bs';
 import { FaStoreAlt, FaMoneyCheckAlt } from 'react-icons/fa';
-import { RiTeamFill } from 'react-icons/ri';
 import landscape from '../../assets/images/raquel-pedrotti-hB-Vwbyxr9U-unsplash.jpg';
 
 function Home() {
