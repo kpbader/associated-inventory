@@ -1,3 +1,31 @@
+#about-us {
+  background:
+    url("../../assets/images/AdobeStock_293755970.jpeg");
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+
+
+#about-us h1 {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+#about-us p {
+    width: 50%;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+#about-us button {
+    width: 10%;
+    margin: 0;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 }
 

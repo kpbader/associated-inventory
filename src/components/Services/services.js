@@ -22,20 +22,22 @@ function Services() {
     return (
         <section id="services-page">
             <div id="our-services-top">
-                <h1>Our Services</h1>
-                {/* <p></p> */}
+                <Fade up>
+                    <h1>Our Services</h1>
+                    <p>We provide retail or wholesale audits customized to each customer's specific needs. Pricing is based on inventory or hourly basis plus travel. Although we have specialized in convenience and grocery stores, we are also experienced in pharmaceutical and warehouse inventories. Discounts are available after first audit and based on frequency.</p>
+                </Fade>
             </div>
             <div id="our-services">
                 <Fade up>
                     <h2>How We Work</h2>
                 </Fade>
                 <Fade up>
-                    <div id="service-cards">
+                    <div id="hww-cards">
                         <Card>
                             <RiTeamFill className="service-icon" />
                             <Card.Body>
                                 <Card.Text>
-                                Our trained crews will inventory your business quietly and efficiently without disturbing your customers or staff.
+                                    Our trained crews will inventory your business quietly and efficiently without disturbing your customers or staff.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -67,7 +69,7 @@ function Services() {
                 </Fade>
                 <Fade up>
                     <button className="cta-btn">
-                        <Link to="/services" onClick={scrollToTop}>Learn More</Link>
+                        <Link to="/contact" onClick={scrollToTop}>Get started</Link>
                     </button>
                 </Fade>
             </div>

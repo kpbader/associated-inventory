@@ -82,6 +82,7 @@ a {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      padding: 25px;
   }
 
   #awc-text {
@@ -101,11 +102,15 @@ a {
   #areas-we-cover img {
       width: 50%;
       height: 50%;
-      margin: 75px;
+      margin: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      border-top: 1px solid var(--primary-color);
+      border-bottom: 1px solid var(--primary-color);
   }
 
   .contact-us-text {
-      color: rgb(230, 151, 4);
+      color: rgb(247, 164, 86);
   }
 
   .contact-us-text:hover {
