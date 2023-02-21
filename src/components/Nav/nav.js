@@ -38,6 +38,25 @@ function Navigation() {
                     <Link to="/contact">Contact</Link>
                 </Nav.Link>
             </Nav>
+
+            <Button id="hamburger-btn" className="openbtn" onClick={handleShow}>
+                ☰
+            </Button>
+            <Offcanvas placement="end" show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton />
+                <Offcanvas.Body>
+                    <section id="nav-tabs">
+                        <ul className="tabpanel">
+                            <Link to="/associated-inventory" className="header-nav-tab" onClick={handleClose}>Home</Link>
+                            <Link to="/services" cl onClick={handleClose} className="header-nav-tab">Services</Link>
+                            <Link to="/areas" className="header-nav-tab" onClick={handleClose}>Areas We Cover</Link>
+                            <Link to="/about" className="header-nav-tab" onClick={handleClose}>About</Link>
+                            <Link to="/contact" className="header-nav-tab" onClick={handleClose}>Contact</Link>
+                        </ul>
+                    </section>
+                </Offcanvas.Body>
+            </Offcanvas >
+
         </section>
     )
 };

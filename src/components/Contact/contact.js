@@ -44,7 +44,7 @@ function Contact() {
                     {/* <div className="contact-info-line">
                     <FiMail />
                     <p>TBD</p>
-                </div> */}
+                    </div> */}
                     <div className="contact-info-line">
                         <SlLocationPin />
                         <p>210 W Main St., Jackson, Missouri 63755</p>
