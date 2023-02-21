@@ -23,27 +23,6 @@
   padding: 10px;
 }
 
-.cta-btn {
-  padding: 10px 20px 10px 20px;
-  font-size: 18px;
-  background-color: var(--secondary-color);
-  border: none;
-  border-radius: 15px;
-  margin-bottom: 50px;
-  margin-left: 10px;
-}
-
-.cta-btn:hover {
-  background-color: var(--tertiary-color);
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
 #our-services {
   background-color: var(--primary-color);
   display: flex;

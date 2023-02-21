@@ -4,3 +4,67 @@
   --secondary-color: white; 
   --tertiary-color: silver;
 }
+
+#gs-button {
+  padding: 10px 20px 10px 20px !important;
+  font-size: 18px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+#gs-button a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+
+#gs-button:hover {
+  background-color: var(--tertiary-color);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-btn {
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.cta-btn:hover {
+  background-color: var(--tertiary-color);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.cta-btn a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+#footer-contact-btn {
+  padding: 10px 20px 10px 20px;
+  font-size: 18px;
+  background-color: rgb(245, 145, 52);
+  border: none;
+  border-radius: 15px;
+  margin-right: 75px;
+  width: 22%;
+}
+
+#footer-contact-btn a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+#footer-contact-btn:hover {
+  background-color: var(--tertiary-color);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
