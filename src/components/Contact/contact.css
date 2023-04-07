@@ -4,14 +4,14 @@
     justify-content: space-evenly;
     padding-top: 75px;
     padding-bottom: 75px;
-    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../../assets/images/matt-jones-dgLp5y_Jhuw-unsplash.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../../assets/images/matt-jones-dgLp5y_Jhuw-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
 
 
-#contact-form {
+/* #contact-form {
     margin-top: 60px;
     margin-bottom: 50px;
     border: 1px solid white;
@@ -117,17 +117,31 @@
     border: 1px solid silver;
     transition: .5s ease;
     cursor: pointer;
-}
+} */
+
 
 .contact-info-line {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
     font-size: 20px;
 }
 
 .contact-info-line p {
     padding-left: 10px;
+}
+
+.contact-info-line a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding-left: 10px;
+    color: white;
+}
+
+.contact-info-line a:hover {
+    color: var(--tertiary-color);
+    transition: .3s ease;
 }
 
 

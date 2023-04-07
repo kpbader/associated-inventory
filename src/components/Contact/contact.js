@@ -1,50 +1,88 @@
 import './contact.css';
-import { useRef, useState } from 'react';
+// import { useRef, useState } from 'react';
 import { BsTelephone } from 'react-icons/bs';
 import { SlLocationPin } from "react-icons/sl";
-// import { FiMail } from "react-icons/fi";
+// import emailjs from 'emailjs-com'
+// import { validateEmail } from '../../utils/helpers';
+import { FiMail } from "react-icons/fi";
 import Fade from 'react-reveal/Fade';
 
 function Contact() {
-    const form = useRef();
-    const [contactForm, setContactForm] = useState({ name: '', email: '', phone: '', message: '' });
-    const { name, email, phone, message } = contactForm;
-    const [errorMessage, setErrorMessage] = useState('');
+    // const form = useRef();
+    // const [contactForm, setContactForm] = useState({ name: '', email: '', phone: '', message: '' });
+    // const { name, email, phone, message } = contactForm;
+    // const [errorMessage, setErrorMessage] = useState('');
+
+    // const formChange = (e) => {
+    //     if (e.target.name === 'email') {
+    //         const isValid = validateEmail(e.target.value);
+    //         if (!isValid) {
+    //             setErrorMessage('Invalid email address');
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     } else {
+    //         if (!e.target.value.length) {
+    //             setErrorMessage(`${e.target.name} is required!`)
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     }
+
+    //     if (!errorMessage) {
+    //         setContactForm({ ...contactForm, [e.target.name]: e.target.value });
+    //     }
+    // };
+
+    // const submitForm = (e) => {
+    //     e.preventDefault();
+
+    //     if (!errorMessage && contactForm.name && contactForm.email && contactForm.message) {
+    //         email.sendForm('', '', '', '') // insert emailjs details here
+    //             .then((result) => {
+    //                 console.log(result.text);
+    //             }, (error) => {
+    //                 console.log(error.text);
+    //             });
+    //         setErrorMessage(`${e.target.name} is required!`)
+    //         e.target.reset();
+    //     } setContactForm({ name: '', email: '', message: '' });
+    // }
 
     return (
         <section id="contact-page">
-            <Fade left>
-                <form id="contact-form">
+            {/* <Fade left>
+                <form id="contact-form" ref={form} onSubmit={submitForm}>
                     <p id="contact-form-header">Reach Out</p>
                     <div id="form-slot-1">
                         <label htmlFor="name">Name</label>
-                        <input type="text" defaultValue={name} name="name" placeholder="Your name" />
+                        <input type="text" defaultValue={name} name="name" placeholder="Your name" onBlur={formChange}/>
                     </div>
                     <div id="form-slot-2">
                         <label htmlFor="email">Email</label>
-                        <input type="email" defaultValue={email} name="email" placeholder="Your email" />
+                        <input type="email" defaultValue={email} name="email" placeholder="Your email" onBlur={formChange}/>
                     </div>
                     <div id="form-slot-4">
                         <label htmlFor="phone">Phone</label>
-                        <input type="phone" defaultValue={phone} name="phone" placeholder="Your phone number" />
+                        <input type="phone" defaultValue={phone} name="phone" placeholder="Your phone number" onBlur={formChange}/>
                     </div>
                     <div id="form-slot-3">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" defaultValue={message} rows="10" cols="45" />
+                        <textarea name="message" defaultValue={message} rows="10" cols="45" onBlur={formChange}/>
                     </div>
                     <button type="submit" className="contact-submit-btn">Submit</button>
                 </form>
-            </Fade>
+            </Fade> */}
             <Fade right>
                 <div id="map-info">
                     <div className="contact-info-line">
                         <BsTelephone />
                         <p>(573) 204-4848</p>
                     </div>
-                    {/* <div className="contact-info-line">
-                    <FiMail />
-                    <p>TBD</p>
-                    </div> */}
+                    <div className="contact-info-line">
+                        <FiMail />
+                        <a href="mailto: ginaraffety@yahoo.com">Reach out</a>
+                    </div>
                     <div className="contact-info-line">
                         <SlLocationPin />
                         <p>210 W Main St., Jackson, Missouri 63755</p>

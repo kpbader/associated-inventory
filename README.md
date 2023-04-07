@@ -8,7 +8,7 @@ A website made for Associated Inventory Specialists
 * CSS
 
 ## Deployed link
-Coming soon
+associatedinventory.com
 
 ## Contact
 kbader91@gmail.com

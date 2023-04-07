@@ -21,7 +21,7 @@ function Navigation() {
             <img src={logo} alt="logo" />
             <Nav id="main-nav-links">
                 <Nav.Link>
-                    <Link to="/associated-inventory">Home</Link> 
+                    <Link to="/">Home</Link> 
                 </Nav.Link>
                 <NavDropdown id="services-dropdown" title="Our Services ⌄">
                     <NavDropdown.Item onClick={()=> nav("/services")}>

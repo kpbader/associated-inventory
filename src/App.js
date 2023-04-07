@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/associated-inventory" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/services" element={<Services />}></Route>
           <Route path="/areas" element={<Areas />}></Route>
           <Route path="/about" element={<About />}></Route>
