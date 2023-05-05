@@ -28,7 +28,7 @@ function Areas() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={pins} alt="hand with pins and map" />
+                    <img src={pins} alt="hand with pins and map" loading="lazy"/>
                 </Fade>
             </div>
         </section>

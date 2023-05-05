@@ -18,7 +18,7 @@ function Navigation() {
 
     return (
         <section id="nav-bar">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" loading="lazy"/>
             <Nav id="main-nav-links">
                 <Nav.Link>
                     <Link to="/">Home</Link> 
@@ -47,7 +47,7 @@ function Navigation() {
                 <Offcanvas.Body>
                     <section id="nav-tabs">
                         <ul className="tabpanel">
-                            <Link to="/associated-inventory" className="header-nav-tab" onClick={handleClose}>Home</Link>
+                            <Link to="/" className="header-nav-tab" onClick={handleClose}>Home</Link>
                             <Link to="/services" cl onClick={handleClose} className="header-nav-tab">Services</Link>
                             <Link to="/areas" className="header-nav-tab" onClick={handleClose}>Areas We Cover</Link>
                             <Link to="/about" className="header-nav-tab" onClick={handleClose}>About</Link>

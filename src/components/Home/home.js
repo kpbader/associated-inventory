@@ -23,7 +23,7 @@ function Home() {
     return (
         <section id="home-page">
             <div id="splash">
-                <img src={heroBanner} atl="Photo by Franki Chamaki" />
+                <img src={heroBanner} alt="Photo by Franki Chamaki" loading="lazy"/>
                 <Fade up>
                     <div id="splash-text">
                         <h1>Serving Southeast Missouri and Southern Illinois since 1976</h1>
@@ -95,7 +95,7 @@ function Home() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={landscape} alt="Landscape" />
+                    <img src={landscape} alt="Landscape" loading="lazy"/>
                 </Fade>
             </div>
         </section>

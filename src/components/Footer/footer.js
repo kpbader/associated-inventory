@@ -16,7 +16,7 @@ function Footer() {
     return (
         <section id="footer">
             <div id="logo-address">
-                <img src={footerLogo} alt="logo" />
+                <img src={footerLogo} alt="logo" loading="lazy"/>
                 <p id="footer-address"><SlLocationPin /> 210 W Main St., Jackson, Missouri 63755</p>
             </div>
             <Nav className="footer-links">
